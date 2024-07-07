@@ -1,0 +1,55 @@
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.name{
+    display: none;
+
+}
+
+@media (max-width: 600px  ){
+    .inputContainer{
+        display: block;
+    }
+
+    .formContainer2{
+        display: block;
+    }
+
+    .name{
+        display: block;
+        font-size: 24x;
+        font-weight: 500;
+    }
+}
+
+.formContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ .slectorcss{
+    width: important 20rem;
+    height: important 100px;
+}
+
+.inputContainer{
+    width: 20rem;
+    height: 50px;
+}
+
+.formContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selctor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
